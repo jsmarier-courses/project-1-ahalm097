@@ -4,11 +4,21 @@ html, body {
     font-family: 'Roboto', sans-serif;
     color: #666666;
 }
-
+* {
+    border: 1px solid red;
+  }
+  
 body {
     background-color: whitesmoke;
 }
-
+.title {
+    color:red;
+    font-size: 50px;
+    font-family: 'Tahoma', sans-serif'; 
+}
+.uppercase {
+    text-transform: uppercase;
+  }
 .top-bar {
     max-width: 1000px;
     position: relative;
@@ -64,7 +74,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: black;
     z-index: 1;
 }
 
