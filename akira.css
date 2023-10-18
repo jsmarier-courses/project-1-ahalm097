@@ -2,20 +2,29 @@ html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
     font-family: 'Roboto', sans-serif;
-    color: #666666;
+    color: black
 }
-* {
-    border: 1px solid red;
-  }
   
 body {
-    background-color: whitesmoke;
+    background-color: rgb(135, 12, 181);
+}
+* {
+    border: 1px solid rgb(125, 31, 157);
+    }
+.bodyblue {
+    background-color: rgb(14, 30, 200);
+}
+.bodypink {
+    background-color: rgb(224, 14, 203);
 }
 .title {
-    color:red;
+    color:blueviolet;
     font-size: 50px;
-    font-family: 'Tahoma', sans-serif'; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
+.logo {
+    font-family: 'cursive'; 
+  }
 .uppercase {
     text-transform: uppercase;
   }
@@ -24,25 +33,69 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-style: dashed;
+}
+.topbarblue {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 4px;
+    border-color: rgb(11, 11, 171);
+    border-style: dashed;
+
+}
+.topbarpink {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 4px;
+    border-color: rgb(236, 17, 214);
+    border-style: dashed;
+
 }
 
 .logo {
-   font-size: 30px;
+   font-size: 35px;
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: #000000;
    font-weight: bold;
 }
-
+.logos{
+font-size: 35px;
+position: absolute;
+padding: 0px 0px 0px 20px;
+z-index: 3;
+color:blue  
+font-weight bold;}
+.logoop{
+    font-size: 35px;
+    position: absolute;
+    padding: 0px 0px 0px 20px;
+    z-index: 3;
+    color:rgb(207, 18, 131)  
+    font-weight bold;}
 .top-menu {
-   background-color: #131359;
+   background-color: rgb(163, 111, 213);
    position: absolute;
    top: 85px;
    z-index: 2;
    width: 100%;
 }
+.top-menus {
+    background-color: rgb(203, 29, 168);
+    position: absolute;
+    top: 85px;
+    z-index: 5;
+    width: 10%;
+ }
 
+ 
 .top-menu ul {
     list-style-type: none;
     font-size: 20px; 
@@ -53,19 +106,44 @@ body {
 .top-menu li {
     display: inline-block;
 }
-
-.top-menu li a:link, .top-menu li a:visited {
+.top-menuu {
+    background-color: rgb(19, 21, 164);
+    position: absolute;
+    top: 85px;
+    z-index: 2;
+    width: 100%;
+ }
+.top-menuu li a:link, .top-menu li a:visited {
     color: white;
     text-decoration: none;
     padding: 20px 20px 20.5px 20px;
 }
 
-.top-menu li a:hover {
-    background-color: red;
+.top-menuu li a:hover {
+    background-color: blueviolet;
+}
+.top-menuu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: right;
+    margin-right: 20px;
 }
 
+.top-menuu li {
+    display: inline-block;
+}
+
+.top-menuu li a:link, .top-menu li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20.5px 20px;
+}
+
+.top-menuu li a:hover {
+    background-color: blueviolet;
+}
 .current-page-link {
-    background-color: #db0e0e;
+    background-color:rgb(182, 18, 204);
 }
 
 .page-content {
@@ -74,7 +152,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: blueviolet;
     z-index: 1;
 }
 
@@ -99,15 +177,37 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:#371fa2;
+    border-width: 4px
+    border-color=blueviolet;
 }
 
 .footer-content {
     padding: 5px 5px 5px 20px;
-    color: white;
+    color:white;
 }
 
 .footer-content a:link {
     color: white;
     text-decoration: none;
 }
+
+
+img {
+    border-style: dotted;
+    border-color:  rgb(135, 12, 181);
+    border-width: 8px;
+  }
+  .titleuppercase4  {
+    color:rgb(107, 35, 5);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.logo {
+    font-size: 35px;
+    position: absolute;
+    padding: 0px 0px 0px 20px;
+    z-index: 3;
+    color: #000000;
+    font-weight: bold;
+ }
